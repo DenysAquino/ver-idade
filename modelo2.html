@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modelo2.css">
+    <title>Sua idade</title>
+</head>
+<body>
+    <header>
+        Veja sua idade.
+    </header>
+    <section>
+        <div id="main">
+            <div>
+                <p>Ano de nascimento:
+                    <input type="number" id="txtano">
+                </p>
+                <p>
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino </label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino </label>
+                </p>
+                <p>
+                <input type="button" onclick="verificar()" value="Verificar">
+                </p>
+            </div>
+            <div id="res">
+                Preencha os dados acima para ver o resultado!
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        &copy; Desenvolvido por Deny$(Dev)
+    </footer>
+</body>
+<script src="modelo2.js"></script>
+</html>
